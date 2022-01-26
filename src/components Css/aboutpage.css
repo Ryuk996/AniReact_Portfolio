@@ -1,0 +1,20 @@
+.resume__downloadButton {
+    color: white;
+    background-color: #f64c08;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 3%;
+  }
+  
+  .resume__downloadButton:hover {
+    color: #f64c08;
+    background-color: white;
+    font-weight: 600;
+  }
+  /* .navzl{
+    background-color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body  };
+  } */
