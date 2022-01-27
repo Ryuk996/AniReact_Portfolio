@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import styled, { ThemeProvider } from 'styled-components'
-import { DarkTheme, lightTheme, mediaQueries } from './Themes';
+import { DarkTheme, lightTheme, mediaQueries,mediaQueriesht } from './Themes';
 import { Design, Develope } from './AllSvgs';
 import LinearProgress from "@material-ui/core/LinearProgress";
 import { useInView } from 'react-intersection-observer'
@@ -45,14 +45,16 @@ color: ${props => props.theme.text};
 background-color: ${props => props.theme.body};
 padding: 2rem;
 width: 30vw;
-height: 60vh;
+height: 65vh;
 z-index:3;
 line-height: 1.5;
 cursor: pointer;
 // ${mediaQueries(60)`
-// height: 55vh;
+// height: 90vh !important;
 // `};
-
+// ${mediaQueriesht(20)`
+//     height
+// `}
 ${mediaQueries(50)`
   width: 50vw;
   height: max-content;
@@ -76,7 +78,7 @@ justify-content: center;
 align-items: center;
 font-size: calc(1em + 1vw);
 ${mediaQueries(60)`
-          font-size:calc(0.8em + 1vw);
+          font-size:calc(0.8em + 2vw);                                              //TODO
   `};
 
   ${mediaQueries(50)`

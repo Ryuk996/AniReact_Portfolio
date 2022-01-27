@@ -1,14 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 import { DarkTheme,mediaQueries } from '../components/Themes'
-
+import "../components Css/logoz.css"
 
 
 
 const Logo = styled.h1`
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
 display: inline-block;
 color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
-font-family: 'Pacifico',cursive;
+font-family: 'Explora', cursive;
+
 
 position: fixed;
 left: 2rem;
@@ -23,7 +25,7 @@ top:2rem;
 
 const LogoComponent = (props) => {
     return (
-        <Logo color={props.theme}>
+        <Logo className="logoz" color={props.theme}>
           TK
         </Logo>
     )

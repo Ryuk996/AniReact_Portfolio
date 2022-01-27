@@ -9,6 +9,7 @@ import { YinYang } from "./AllSvgs";
 import Intro from "./Intro";
 import Loading from "../subComponents/Loading";
 import { mediaQueries,DarkTheme,larkTheme } from "./Themes";
+import "../components Css/mainpagez.css";
 
 const PowerButton = lazy(() => import("../subComponents/PowerButton"));
 const SocialIcons = lazy(() => import("./../subComponents/SocialIcons"));
@@ -235,7 +236,7 @@ const Main = () => {
               />
             )}
 
-            <span>Hit here</span>
+            <span className="hitz">Hit here</span>
           </Center>
 
           {mq ? (
@@ -256,7 +257,7 @@ const Main = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                Say hi..
+                Say hello..
               </motion.h3>
             </Contact>
           ) : (
@@ -277,7 +278,7 @@ const Main = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                Say hi..
+                Say hello..
               </motion.h3>
             </Contact>
           )}

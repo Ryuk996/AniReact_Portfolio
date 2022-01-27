@@ -141,3 +141,11 @@
     width: 80%;
   }
 }
+
+@media only screen  and (max-height: 680px){
+  .skillContainer__skillSet > h5 {
+    
+    padding-bottom: 6px;
+    padding-top: 20px;
+  }
+}

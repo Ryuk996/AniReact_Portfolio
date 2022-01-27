@@ -34,3 +34,7 @@ export const breakpoints = {
   export const mediaQueries = key => {
     return style => `@media (max-width: ${key}em) { ${style} }`
   }
+
+  export const mediaQueriesht = key => {
+    return style => `@media (max-height: ${key}em) { ${style} }`
+  }

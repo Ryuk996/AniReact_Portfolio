@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.hitz{
+    font-family: 'Great Vibes', cursive;
+    font-size: calc(0.4em + 1.5vw);
+    font-weight: 600;
+}
