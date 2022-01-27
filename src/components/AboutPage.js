@@ -132,7 +132,7 @@ const AboutPage = () => {
               enhance the digital culture and make life simpler.  </h4>
               <br></br>
               <a
-                  href="https://drive.google.com/file/d/13UBYcF2Epdej7W0bjZZ3bV1SXS6V6RW7/view?usp=drivesdk"
+                  href="https://drive.google.com/file/d/1-lCGmjVmDnVdRrsSN1hKIYpVPf4Rhi5X/view?usp=drivesdk"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
