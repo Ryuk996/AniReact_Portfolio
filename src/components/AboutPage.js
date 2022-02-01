@@ -128,7 +128,7 @@ const AboutPage = () => {
               <br></br>
               <h4 className="About_text"> I'm Thirunavukkarasu ,hails from trichy. I'm photographer by hobbyist, creative species and crave for new learnings.
               Activley looking for job as a web developer, as having hands-on on popular frameworks and react libraries,
-              hence gaining adequate knowledges about the technologies to, pace up to develop  creative and interactive web application to 
+              hence gaining adequate knowledges about the technologies to pace up, develop  creative and interactive web application to 
               enhance the digital culture and make life simpler.  </h4>
               <br></br>
               <a
