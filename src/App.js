@@ -24,7 +24,7 @@ function App() {
 
     <ThemeProvider theme={lightTheme} >
 
-      <SoundBar />
+      //<SoundBar />
 
       {/* For framer-motion animation on page change! */}
       <AnimatePresence exitBeforeEnter>
